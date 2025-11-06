@@ -1,0 +1,137 @@
+Guion completo sala por sala
+
+Introducción (pantalla inicial)
+"Eira Valen. La nieve cruje bajo tus botas. Las banderas de tu casa ya no ondean; sólo cenizas
+y rumores. En la base de una torre olvidada, la entrada a la Cripta de Hielo aguarda bajo un
+arco tallado con runas antiguas. Recupera la Reliquia del Norte y el nombre de tu casa podrá
+volver a resonar."
+
+Piso 1 — Entrada y pruebas ligeras
+
+Sala 1 — Sala de Patrulla (Enemigos débiles)
+Descripción al entrar: "Un pasillo helado, antorchas apagadas. Voz ronca: pasos acercándose."
+Texto inicial: "Dos Vigías Exhaustos patrullan la sala."
+Opciones: 1. Atacar 2. Intentar sigilo (tirada) 3. Usar habilidad 4. Abrir inventario
+Encuentro:
+Si combate: secuencia de turno; diálogo corto del enemigo: "¡Alto ahí!".
+Si sigilo exitoso: evita combate y obtiene 3 monedas.
+Resultado: Al ganar obtienes 5–8 oro y parche de tela; posible pista: "Runas arriba guardan puertas."
+
+Sala 2 — Sala del Mensajero (NPC)
+Descripción: "Un mensajero sangrando se apoya en la pared, sus ojos vidriosos."
+Texto inicial: "El mensajero susurra: 'La luz revela la verdad'."
+Opciones: 1. Hablar 2. Revisar bolsa 3. Curar 4. Continuar
+Árbol de diálogo:
+Mensajero: "No entres sin luz."
+Respuesta A: "¿Por qué?" -> Mensajero: "Espectros cazan en la oscuridad." (entrega poción menor).
+Respuesta B: "Gracias." -> entrega pista y cae dormido.
+Resultado: Ganas 1 poción menor; recibes la pista para puzzles y combate contra espectros.
+
+Sala 3 — Sala del Cofre (Tesoro con posible trampa)
+Descripción: "Un cofre oxidado bajo un arco cubierto de runas heladas."
+Texto inicial: "Hay una inscripción: 'Toque con cuidado'."
+Opciones: 1. Abrir cofre 2. Examinar runas 3. Desactivar trampa (tirada) 4. Dejarlo
+Mecánica: Si falla desactivar trampa -> pierde 5 HP; si éxito -> obtiene 1 antorcha o 10–15 oro.
+Resultado: Cofre contiene antorcha (si no disponible) o 10–15 oro; si trampa, marca de daño y
+pista sobre runas.
+
+Sala 4 — Sala del Puzzle (bloqueo simple)
+Descripción: "Una puerta sellada con tres símbolos; debajo, una frase incompleta."
+Texto inicial: "Inscripción: 'Luz, no sombra, revela el —'."
+Opciones: 1. Intentar resolver 2. Usar fragmento de historia 3. Buscar pistas en la sala 4. Volver
+Puzzle: ingresar palabra correcta "VERDAD" o completar con palabra sugerida por fragmentos.
+Recompensa: Llave menor o acceso directo a la sala 5; fallo -> pequeña trampa: -3 HP.
+
+Sala 5 — Sala del Guardián Menor (Mini-jefe)
+Descripción: "Una figura entera de armadura helada bloquea la salida."
+Texto inicial: "Guardia de Hielo: 'Nadie toma lo que yace más arriba.'"
+Opciones: 1. Combate 2. Usar antorcha 3. Intentar negociar (tirada virtud) 4. Huir
+Combate especial: Guardián aplica "Ola de Frío" que reduce EN por 1 turno; antorcha
+reduce daño especial en 50%.
+Recompensa: 20–30 oro; fragmento de historia; puerta al Piso 2.
+
+Piso 2 — Peligros y decisiones
+
+Sala 1 — Sala de Escarcha (Trampa ambiental)
+Descripción: "Suelo resbaladizo y estalactitas de hielo colgantes."
+Texto inicial: "Al cruzar, el suelo tiembla ligeramente."
+Opciones: 1. Avanzar con cuidado (tirada) 2. Rodar/atajar 3. Buscar alternativa 4. Volver
+Mecánica: Fallo -> caída que causa 6–8 HP de daño; éxito -> evita y encuentra 5 monedas.
+
+Sala 2 — Sala del Comerciante (NPC)
+Descripción: "Una figura envuelta en pieles junto a una carreta diminuta."
+Texto inicial: "Comerciante: 'No todo se gana con acero, chica.'"
+Opciones: 1. Ver inventario 2. Vender 3. Intercambiar fragmento por llave 4. Rechazar
+Comercio: antorcha por 10 oro; poción mayor por 25 oro; fragmento de historia puede
+cambiarse por llave escarchada si se desea.
+Consecuencia: Cambios de recursos que impactan acceso a Piso 3.
+
+Sala 3 — Sala de Emboscada (Enemigos numerosos)
+Descripción: "Sombras entre columnas: se oyen gruñidos."
+Texto inicial: "Tres Lobos de Torre emergen."
+Opciones: 1. Luchar 2. Usar habilidad de área si disponible 3. Defender 4. Huir (difícil)
+Mecánica: enemigos atacan en grupo; usar objetos o habilidades de área recomendado.
+Recompensa: 15–20 oro y cuero útil; posible llave menor.
+
+Sala 4 — Sala del Enigma (Puzzle con pistas)
+Descripción: "Un mural con escenas fragmentadas de la historia de la Reliquia."
+Texto inicial: "Tres escenas; una falta la última pieza."
+Opciones: 1. Ordenar escenas (entrada de opción) 2. Usar pista 3. Inspeccionar piezas 4. Salir
+Puzzle: elegir la secuencia correcta (1 de 3). Éxito -> llave temporal o pista crítica
+sobre jefe final; fallo -> perder 2 EN.
+
+Sala 5 — Sala del Guardián (Jefe intermedio)
+Descripción: "Un guerrero espectral con ojos de hielo se yergue."
+Texto inicial: "Guardián: 'Quien busque la Reliquia debe superar la prueba.'"
+Opciones: 1. Combate 2. Usar antorcha 3. Intentar diálogo (puede retrasar) 4. Huir (imposible)
+Boss mechanics: regeneración ligera si no recibe daño por fuego o luz; antorcha reduce regeneración.
+Recompensa: Llave Escarchada (si no obtenida antes), 30–40 oro, fragmento clave.
+
+Piso 3 — Corazón de la cripta
+
+Sala 1 — Sala del Eco (Decisión narrativa)
+Descripción: "Tus pasos resuenan; voces antiguas te llaman por tu nombre."
+Texto inicial: "Una voz susurra: 'Rinde lo que no te pertenece y habrá paz.'"
+Opciones: 1. Ignorar y avanzar 2. Responder 3. Buscar eco (tirada) 4. Retroceder
+Consecuencia: Responder puede desbloquear diálogo con Traidor Encapuchado más tarde;
+ignorar mantiene camino directo hacia jefe.
+
+Sala 2 — Sala del Tesoro Sellado (requiere llave o puzzle)
+Descripción: "Puerta con cerradura de runas; el aire huele a antigüedad."
+Texto inicial: "La cerradura necesita la Llave Escarchada o resolver el puzzle de runas."
+Opciones: 1. Usar llave 2. Resolver puzzle 3. Forzar la puerta (falla posible) 4. Volver
+Recompensa: Reliquia menor, poción mayor, o la Antorcha Sagrada (mejora antorcha normal).
+
+Sala 3 — Sala de Traición (NPC ambiguo)
+Descripción: "Una figura encapuchada te ofrece alianza por la Reliquia."
+Texto inicial: "Traidor: 'Dame la Reliquia y te ahorraré la lucha.'"
+Opciones: 1. Aceptar 2. Rechazar 3. Interrogar 4. Engañar (tirada)
+Consecuencias claras:
+Aceptar -> evita jefe final pero pierdes Reliquia y final cambia a Final B.
+Rechazar -> combate inmediato si traidor decide atacar.
+Engañar -> puede obtener ventaja en jefe final (reduce HP inicial del jefe).
+Resultado: elección altera epílogo y escenas finales.
+
+Sala 4 — Sala de la Reliquia (Jefe final)
+Descripción: "Un pedestal vacío envuelto en runas; una sombra se materializa."
+Texto inicial: "Señor de la Reliquia: 'Tu linaje no reclama lo que no puede sostener.'"
+Opciones: 1. Combate 2. Usar antorcha/objeto especial 3. Intentar diálogo final
+(puede detener fase enrabietada) 4. Huir (no)
+Boss mechanics: dos fases; bajo 15 HP entra en furia y gana ataques adicionales;
+vulnerabilidad a luz (antorcha/objeto especial reduce daño y fases).
+Recompensa por victoria: Reliquia del Norte; escena de escape iniciada.
+
+Sala 5 — Sala de Escape (Cuenta regresiva)
+Descripción: "La cripta tiembla; corredores colapsan."
+Texto inicial: "Puerta de salida bloqueada; 5 turnos para salir con la Reliquia."
+Opciones: 1. Correr directos (tirada cada sala) 2. Usar atajos (requiere mapas o éxito en
+tiradas) 3. Ayudar a aliados (reduce tiempo) 4. Abandonar Reliquia
+Mecánica: cada fallo consume 1 turno extra o causa daño; llegar a la salida con la Reliquia
+genera Final A o B según decisiones previas; morir o quedarse -> Final C.
+
+Textos finales (epílogos breves)
+Final A (victoria legítima): "Eira emerge con la Reliquia. Las campanas del norte suenan
+y comienzan las conversaciones. Tu casa tiene una oportunidad."
+Final B (victoria a costo): "Tienes la Reliquia pero la traición pesará; el poder regresa,
+pero a un precio personal alto."
+Final C (fallo): "La cripta reclama lo que intentaste tomar; solo el viento conoce tu nombre ahora."
