@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EditMigrationStateService">
+    <pendingWorkingSetItems>
+      <entry key="3eb599eb-0497-413d-a79d-2a1b8cd28f82">
+        <set>
+          <option value="file://$PROJECT_DIR$/src/Jefe.java" />
+          <option value="file://$PROJECT_DIR$/src/enemigo.java" />
+          <option value="file://$PROJECT_DIR$/Juego.iml" />
+          <option value="file://$PROJECT_DIR$/src/Main.java" />
+          <option value="file://$PROJECT_DIR$/src/Piso.java" />
+          <option value="file://$PROJECT_DIR$/src/Sala.java" />
+          <option value="file://$PROJECT_DIR$/src/Game.java" />
+          <option value="file://$PROJECT_DIR$/src/Player.java" />
+          <option value="file://$PROJECT_DIR$/src/Enemy.java" />
+          <option value="file://$PROJECT_DIR$/src/Combat.java" />
+          <option value="file://$PROJECT_DIR$/src/Utils.java" />
+          <option value="file://$PROJECT_DIR$/src/Floor1.java" />
+        </set>
+      </entry>
+    </pendingWorkingSetItems>
+  </component>
+</project>
